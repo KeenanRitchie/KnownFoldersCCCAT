@@ -164,6 +164,3 @@ Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\OneDrive -Name EnableAllOcsiClie
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\OneDrive -Name DisablePersonalSync -PropertyType DWORD -Value 1 
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\OneDrive -Name DefaultToBusinessFRE -PropertyType DWORD -Value 1
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\OneDrive\Tenants\2429426c-2550-451b-969b-db75f7f1f35b -Name DisableCustomRoot -PropertyType DWORD -Value 1
-
-
-start odopen://sync?useremail=$env:USERNAME@example.com
