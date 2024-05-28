@@ -145,17 +145,17 @@ public extern static int SHSetKnownFolderPath(ref Guid folderId, uint flags, Int
 $ONEDRIVESYNC = "$env:USERPROFILE\OneDrive"
 
 # Root Folders
-Set-KnownFolderPath -KnownFolder 'Desktop' -Path "$ONEDRIVESYNC\Desktop"
-Set-KnownFolderPath -KnownFolder 'Documents' -Path "$ONEDRIVESYNC\Documents"
-Set-KnownFolderPath -KnownFolder 'Downloads' -Path "$ONEDRIVESYNC\Downloads"
-Set-KnownFolderPath -KnownFolder 'Pictures' -Path "$ONEDRIVESYNCPictures"
+Set-KnownFolderPath -KnownFolder 'Desktop' -Path "$ONEDRIVESYNC\Work Files\Desktop"
+Set-KnownFolderPath -KnownFolder 'Documents' -Path "$ONEDRIVESYNC\Work Files\Documents"
+Set-KnownFolderPath -KnownFolder 'Downloads' -Path "$ONEDRIVESYNC\Work Files\Downloads"
+Set-KnownFolderPath -KnownFolder 'Pictures' -Path "$ONEDRIVESYNC\Work Files\Pictures"
 
 # Other Folders
-Set-KnownFolderPath -KnownFolder 'Contacts' -Path "$ONEDRIVESYNC\Contacts"
-Set-KnownFolderPath -KnownFolder 'Favorites' -Path "$ONEDRIVESYNC\Favorites"
-Set-KnownFolderPath -KnownFolder 'Links' -Path "$ONEDRIVESYNC\Links"
-Set-KnownFolderPath -KnownFolder 'Music' -Path "$ONEDRIVESYNC\Music"
-Set-KnownFolderPath -KnownFolder 'Videos' -Path "$ONEDRIVESYNC\Videos"
+Set-KnownFolderPath -KnownFolder 'Contacts' -Path "$ONEDRIVESYNC\Work Files\Contacts"
+Set-KnownFolderPath -KnownFolder 'Favorites' -Path "$ONEDRIVESYNC\Work Files\Favorites"
+Set-KnownFolderPath -KnownFolder 'Links' -Path "$ONEDRIVESYNC\Work Files\Links"
+Set-KnownFolderPath -KnownFolder 'Music' -Path "$ONEDRIVESYNC\Work Files\Music"
+Set-KnownFolderPath -KnownFolder 'Videos' -Path "$ONEDRIVESYNC\Work Files\Videos"
 
 #Set-KnownFolderPath -KnownFolder 'AppData (Roaming)' -Path "$ONEDRIVESYNC\Work Files\AppData"
 
