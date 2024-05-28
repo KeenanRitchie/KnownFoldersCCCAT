@@ -142,7 +142,7 @@ public extern static int SHSetKnownFolderPath(ref Guid folderId, uint flags, Int
 
 }
 
-$ONEDRIVESYNC = "$env:USERPROFILE\OneDrive - CCCAT"
+$ONEDRIVESYNC = "$env:USERPROFILE\OneDrive"
 
 # Root Folders
 Set-KnownFolderPath -KnownFolder 'Desktop' -Path "$ONEDRIVESYNC\Work Files\Desktop"
